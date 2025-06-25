@@ -12,7 +12,6 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logo{
@@ -50,8 +49,9 @@ img{
 }
 
 .search-bar{
-    width: 35%;
     height: 40px;
+    min-width: 200px;
+    width: 30%;
     display: flex;
     align-items: center;
 }
@@ -105,4 +105,35 @@ span{
     font-size: 12px;
     font-weight: 700;
     padding-top: 10px;
+}
+
+/** main section **/
+.banner_container{
+    margin-top: 30px;
+}
+.banner_img{
+    height: 230px;
+    width: 100%;
+}
+
+.category_headings{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 40px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 180px;
+    width: 140px;
+    margin: 10px;
 }
